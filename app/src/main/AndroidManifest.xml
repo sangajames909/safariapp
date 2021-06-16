@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.safariapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SafariApplication">
+        <activity android:name=".FragmentViewModel"></activity>
+        <activity android:name=".BackgroundLogic" />
+        <activity android:name=".FragmentClass" />
+        <activity android:name=".IntentSharingActivityB" />
+        <activity android:name=".IntentSharingActivityA" />
+        <activity android:name=".RecyclerviewActivity" />
+        <activity android:name=".BottomNavigationActivity" />
+        <activity android:name=".NavigationDrawerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AssignmentActivity" />
+        <activity android:name=".ConstraitLayout" />
+        <activity android:name=".RelativeLayout" />
+        <activity android:name=".LinearLayout"></activity>
+    </application>
+
+</manifest>

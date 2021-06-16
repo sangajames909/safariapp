@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_assignment"
+        android:title="Assignment"
+        android:icon="@drawable/assignment"/>
+    <item
+        android:id="@+id/nav_linear"
+        android:title="Linear Layout"
+        android:icon="@drawable/hvac"/>
+    <item
+        android:id="@+id/nav_relative"
+        android:title="Relative Layout"
+        android:icon="@drawable/bookmark"/>
+
+    <item
+        android:id="@+id/nav_bottomview"
+        android:title="Bottom View"
+        android:icon="@drawable/bottom"/>
+    <item
+        android:title="Recycle View"
+        android:id="@+id/nav_recycle"
+        android:icon="@drawable/view"/>
+    <item
+        android:title="Intent Sharing"
+        android:id="@+id/nav_intent"
+        android:icon="@drawable/integration"/>
+    <item
+        android:title="Fragment"
+        android:id="@+id/nav_fragment"
+        android:icon="@drawable/filter"/>
+    <item
+        android:title="Background"
+        android:id="@+id/nav_back"
+        android:icon="@drawable/back"/>
+    <item
+        android:title="Fragment View Model"
+        android:id="@+id/nav_fragmodel"
+        android:icon="@drawable/filter"/>
+
+</menu>
